@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>video.html</title>
+    </head>
+    <body>
+	<h3> Revenir a index </h3>
+	<p> <a href =index.html> vers index.html </a></p>
+<video id ="yaaavideo" controls>
+  <source id ="yaaavideo" src="yaaa.mp4" type="video/mp4">
+  <source id ="yaaavideo" src="yaaa.webm" type="video/webm">
+  <p>Votre navigateur ne supporte pas la vidéo HTML5. Voici à la place <a href="https://www.youtube.com/watch?v=pOeig6_aAtE">un lien vers la vidéo</a>.</p>
+</video>
+
+	<br>
+ 	<button onclick="hide()">Hide</button><button onclick="show()">Show</button>
+
+<div id="textevideo">
+       mettre en pause la video pour que ce texte soit cache
+        </div>
+	
+    <script>
+
+    function hide() {
+                  var x = document.getElementById("myDIV");
+                    x.style.display = "none";
+                }
+
+    function show() {
+                  var x = document.getElementById("myDIV");
+                    x.style.display = "block";
+                }
+
+ function video() {
+                    var x = document.getElementById("textevideo");
+                    if (x.style.display === "none") {
+                      x.style.display = "block";
+                    } else {
+                      x.style.display = "none";
+                    }
+                  }
+
+               var btnvideo = document.getElementById("yaaavideo") ;
+
+                btnvideo.addEventListener("pause", (e) => {
+                  var x = document.getElementById("textevideo");
+                    x.style.display = "none";
+                });
+                btnvideo.addEventListener("play", (e) => {
+                  var x = document.getElementById("textevideo");
+                    x.style.display = "block";
+                });
+
+
+        </script>
+    </body>
+</html>

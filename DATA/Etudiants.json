@@ -1,0 +1,140 @@
+[
+    {
+        "mdp": "123",
+        "nom": "Maurer",
+        "prenom": "Sylvain",
+        "ville": "Montbéliard1",
+        "groupe": "RT-LK-2",
+        "vehicule": [
+            {
+                "immatriculation": 552351,
+                "NbPlace": 4,
+                "modele" : "Audi",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    },
+    {
+        "mdp": "1234",
+        "nom": "Guyon",
+        "prenom": "Mathias",
+        "ville": "Montbéliard2",
+        "groupe": "RT-LK-1",
+        "vehicule": [
+            {
+                "immatriculation": 532552,
+                "NbPlace": 5,
+                "modele" : "Chevrolet",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    },
+    {
+        "mdp": "1235",
+        "nom": "Pinot",
+        "prenom": "Thomas",
+        "ville": "Montbéliard3",
+        "groupe": "RT-LK-2",
+        "vehicule": [
+            {
+                "immatriculation": 532553,
+                "NbPlace": 6,
+                "modele" : "Peugeot",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    },
+    {
+        "mdp": "2445",
+        "nom": "Mitel",
+        "prenom": "Yohann",
+        "ville": "Strasbourg",
+        "groupe": "RT-LK-2",
+        "vehicule": [
+            {
+                "immatriculation": 1392355,
+                "NbPlace": 5,
+                "modele" : "Batmobile",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    },
+    {
+        "mdp": "123",
+        "nom": "George",
+        "prenom": "Zacharie",
+        "ville": "Colmar",
+        "groupe": "RT-LK-1",
+        "vehicule": [
+            {
+                "immatriculation": 13642395,
+                "NbPlace": 3,
+                "modele" : "Panzer",
+                "cartegrise": "oui",
+                "controletech": "non",
+                "assurance": "non"
+            }
+        ]
+    },
+
+    {
+        "mdp": "123",
+        "nom": "Bleue",
+        "prenom": "Barbe",
+        "ville": "Marseille",
+        "groupe": "RT-LK-1",
+        "vehicule": [
+            {
+                "immatriculation": 12565,
+                "NbPlace": 20,
+                "modele" : "GallionOfCombat",
+                "cartegrise": "non",
+                "controletech": "non",
+                "assurance": "Unesco"
+            }
+        ]
+    },
+    {
+        "mdp": "123",
+        "nom": "Martin",
+        "prenom": "Hugo",
+        "ville": "Belfort",
+        "groupe": "RT-LK-1",
+        "vehicule": [
+            {
+                "immatriculation": 1395,
+                "NbPlace": 20,
+                "modele" : "306",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    },
+    {
+        "mdp": "123",
+        "nom": "Kastner",
+        "prenom": "Arnaud",
+        "ville": "Strasbourg",
+        "groupe": "RT-LK-1",
+        "vehicule": [
+            {
+                "immatriculation": 1393555,
+                "NbPlace": 2,
+                "modele" : "Tricyle",
+                "cartegrise": "oui",
+                "controletech": "oui",
+                "assurance": "oui"
+            }
+        ]
+    }
+
+]
